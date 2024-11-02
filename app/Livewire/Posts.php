@@ -13,8 +13,6 @@ class Posts extends Component
     public $isOpen = 0;
     public function render()
     {
-        //$posts = Post::paginate(5);
-        //dd($posts);
         return view('livewire.posts', ['posts' => Post::paginate(5),]);
     }
 
