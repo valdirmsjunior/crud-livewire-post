@@ -54,7 +54,7 @@
                 </tbody>
             </table>
             <div class="py-2">
-                {{ $posts->links() }}
+                {{ $posts->links(data: ['scrollTo' => false]) }}
             </div>
 
         </div>
